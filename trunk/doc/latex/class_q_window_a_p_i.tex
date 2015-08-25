@@ -1,0 +1,90 @@
+\hypertarget{class_q_window_a_p_i}{
+\section{QWindowAPI Class Reference}
+\label{class_q_window_a_p_i}\index{QWindowAPI@{QWindowAPI}}
+}
+Inheritance diagram for QWindowAPI:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_q_window_a_p_i}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_q_window_a_p_i_ae8211c69c07c3831218c6098ecc6aaf5}{
+{\bfseries QWindowAPI} (const char $\ast$name, int width, int height, bool frame, QString logo, QString filename)}
+\label{class_q_window_a_p_i_ae8211c69c07c3831218c6098ecc6aaf5}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_q_window_a_p_i_a178d3e0dbd8873879d3f08f97ee0a772}{
+virtual QPushButton $\ast$ {\bfseries CreateButton} (QWidget $\ast$widget, const char $\ast$name, int height, int width, int pos\_\-x, int pos\_\-y, const QString stylesheet=\char`\"{}\char`\"{})}
+\label{class_q_window_a_p_i_a178d3e0dbd8873879d3f08f97ee0a772}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a439a14ace5436d4c2ed7627fc4e972ec}{
+virtual QListView $\ast$ {\bfseries CreateList} (QWidget $\ast$widget, int height, int width, int pos\_\-x, int pos\_\-y)=0}
+\label{class_q_window_a_p_i_a439a14ace5436d4c2ed7627fc4e972ec}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a2d2c92d10ce54ea32ceb8928b2733572}{
+virtual QLineEdit $\ast$ {\bfseries CreateInputBox} (QWidget $\ast$widget, int height, int width, int pos\_\-x, int pos\_\-y, int mode)}
+\label{class_q_window_a_p_i_a2d2c92d10ce54ea32ceb8928b2733572}
+
+\item 
+\hypertarget{class_q_window_a_p_i_ac637916d5e5e2b72d3549afc8ed607a1}{
+virtual QLabel $\ast$ {\bfseries CreateLink} (QWidget $\ast$widget, QString text, int pos\_\-x, int pos\_\-y, const QString \hyperlink{classtype}{type}=NULL)}
+\label{class_q_window_a_p_i_ac637916d5e5e2b72d3549afc8ed607a1}
+
+\item 
+\hypertarget{class_q_window_a_p_i_ad3c7dfefa0a822e4ae4f4223704981d9}{
+virtual QLabel $\ast$ {\bfseries CreateText} (QWidget $\ast$widget, QString text, int width, int height, int pos\_\-x, int pos\_\-y)}
+\label{class_q_window_a_p_i_ad3c7dfefa0a822e4ae4f4223704981d9}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a8bff56b9568061b2c004d6e8b3c5dcaa}{
+virtual QLabel $\ast$ {\bfseries CreateImage} (QWidget $\ast$widget, const QString filename, int height, int width, int pos\_\-x, int pos\_\-y)}
+\label{class_q_window_a_p_i_a8bff56b9568061b2c004d6e8b3c5dcaa}
+
+\item 
+\hypertarget{class_q_window_a_p_i_aab8041714388aabab71843ca09fac646}{
+virtual QPushButton $\ast$ {\bfseries CreateClickableImage} (QWidget $\ast$widget, const QString filename, int height, int width, int pos\_\-x, int pos\_\-y)}
+\label{class_q_window_a_p_i_aab8041714388aabab71843ca09fac646}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a9b0dee3c3c4c75b5a48c6a8d7e78b269}{
+virtual void {\bfseries mousePressEvent} (QMouseEvent $\ast$event)}
+\label{class_q_window_a_p_i_a9b0dee3c3c4c75b5a48c6a8d7e78b269}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a158948ba8f512fa23f88ac10c97f9e06}{
+virtual void {\bfseries mouseReleaseEvent} (QMouseEvent $\ast$event)}
+\label{class_q_window_a_p_i_a158948ba8f512fa23f88ac10c97f9e06}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a3bb8dbfeb69f26147e5990f66151692e}{
+virtual void {\bfseries mouseMoveEvent} (QMouseEvent $\ast$event)}
+\label{class_q_window_a_p_i_a3bb8dbfeb69f26147e5990f66151692e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_q_window_a_p_i_ac510ee00f76bc4721d58f12f8a53d8f3}{
+QStandardItemModel $\ast$ {\bfseries iStandardModel}}
+\label{class_q_window_a_p_i_ac510ee00f76bc4721d58f12f8a53d8f3}
+
+\item 
+\hypertarget{class_q_window_a_p_i_a30c1d4ae0e9d24418026e0a553290fbb}{
+QPoint {\bfseries m\_\-Diff}}
+\label{class_q_window_a_p_i_a30c1d4ae0e9d24418026e0a553290fbb}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+ZiaServer/Gui/qwindowapi.h\item 
+ZiaServer/Gui/qwindow.cpp\end{DoxyCompactItemize}
